@@ -59,3 +59,10 @@ typings/
 
 # Editor directories and files
 .vscode
+
+# Vite
+node_modules/.vite
+dist/
+
+# TS Build
+*.tsbuildinfo

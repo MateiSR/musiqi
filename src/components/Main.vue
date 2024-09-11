@@ -4,11 +4,7 @@
 <template>
   <div class="flex flex-col pt-4 justify-center items-center gap-4">
     <!-- Router link to start a lobby -->
-    <router-link to="/play" class="btn btn-primary">Create lobby</router-link>
-    <!-- Router link to play solo -->
-    <router-link to="/play/solo" class="btn btn-secondary"
-      >Play solo</router-link
-    >
+    <RouterLink to="/lobby" class="btn btn-primary">Create lobby</RouterLink>
     <h3 class="text-slate-300">
       Click
       <a
@@ -18,7 +14,7 @@
         rel="noopener noreferrer"
         >here</a
       >
-      to view your playlists
+      to view your YouTube playlists
     </h3>
     <div class="flex gap-4"></div>
   </div>

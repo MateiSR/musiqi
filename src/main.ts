@@ -1,5 +1,14 @@
+// Vue
 import { createApp } from "vue";
+import router from "./router.ts";
+
+// Styles
 import "./assets/styles/style.css";
+
+// Pages (components)
 import App from "./App.vue";
 
-createApp(App).mount("#app");
+// Initialize Vue
+const app = createApp(App);
+app.use(router);
+app.mount("#app");

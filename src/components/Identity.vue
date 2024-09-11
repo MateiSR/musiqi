@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="flex flex-col justify-center items-center gap-4 pb-24">
+  <div class="flex flex-col justify-center items-center gap-4 pb-8">
     <RouterLink to="/">
       <svg
         version="1.0"
@@ -46,7 +46,7 @@
 
     <h1 class="text-5xl font-bold">Musiqi</h1>
 
-    <p class="text-xl">The <b>YouTube playlist music quiz</b> game</p>
+    <p class="text-xl">A <b>music quiz</b> game</p>
     <p class="text-s text-slate-300">
       Click the logo above to go back to the home page
     </p>

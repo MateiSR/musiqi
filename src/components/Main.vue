@@ -1,6 +1,7 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<h1>musiqi</h1>
+  <div class="flex flex-col min-h-screen justify-center items-center gap-4">
+    Test
+  </div>
 </template>

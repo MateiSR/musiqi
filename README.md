@@ -8,3 +8,6 @@ The game is played in rounds, with songs selected from one of the following sour
 
 ## Contributing
 This project is open to contributions. If you would like to contribute, don't hesitate to open a pull request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.

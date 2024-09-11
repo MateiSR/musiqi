@@ -4,18 +4,11 @@
 <template>
   <div class="flex flex-col pt-4 justify-center items-center gap-4">
     <!-- Router link to start a lobby -->
-    <RouterLink to="/lobby" class="btn btn-primary">Create lobby</RouterLink>
-    <h3 class="text-slate-300">
-      Click
-      <a
-        href="https://www.youtube.com/feed/playlists"
-        class="text-blue-400 italic"
-        target="_blank"
-        rel="noopener noreferrer"
-        >here</a
-      >
-      to view your YouTube playlists
-    </h3>
+    <RouterLink
+      to="/lobby"
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+      >Create lobby</RouterLink
+    >
     <div class="flex gap-4"></div>
   </div>
 </template>

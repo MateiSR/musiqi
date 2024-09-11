@@ -6,6 +6,9 @@ The game is played in rounds, with songs selected from one of the following sour
 - AniList API (planned)
 - Spotify API (planned)
 
+## To-Do 
+- API & Multiplayer lobbies (Express.js, Socket.io rooms)
+
 ## Contributing
 This project is open to contributions. If you would like to contribute, don't hesitate to open a pull request.
 
